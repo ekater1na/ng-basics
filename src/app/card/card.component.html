@@ -1,4 +1,10 @@
 <div class="card">
-    <h2>Card component</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, sit magni voluptate in maiores nisi odit nemo! Dolores odit vero, illo alias iure voluptatibus eveniet? Inventore sapiente exercitationem quidem omnis?</p>
+    <h2>{{ title }}</h2>
+    <p>{{ text }}</p>
+    <p>{{ getInfo() }}</p>
+
+    <div>
+        <img [src]="imgUrl" alt="">
+    </div>
+    <button [disabled]='disabled'>Enable</button>
 </div>
