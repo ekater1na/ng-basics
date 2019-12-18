@@ -9,6 +9,7 @@ export class CardComponent implements OnInit{
 
   title: string = 'My card title'
   text: string = 'My text. La-la-la'
+  textColor: string
 
   ngOnInit() {
   }
