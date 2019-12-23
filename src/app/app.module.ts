@@ -6,9 +6,9 @@ import localeRu from '@angular/common/locales/ru';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
-import { FormComponent } from './form/form.component'
+import { FormComponent } from './form/form.component';
 
-registerLocaleData(localeRu, 'ru')
+registerLocaleData(localeRu, 'ru');
 @NgModule({
   declarations: [
     AppComponent,
